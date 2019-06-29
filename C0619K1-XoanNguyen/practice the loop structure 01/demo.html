@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Bài 1: Chuyển từ độ C sang độ F.</p>
+<input type="text" id="doC">
+<button onclick="temperatureConverter()">submit</button>
+<p id="ketqua"></p>
+
+
+<p>Bài 2: Chuyển từ mét sang feet:</p>
+<input type="text" id="met" name="met">
+<button onclick="depthConversion()">Convert</button>
+<p id="feet"></p>
+
+
+<p>Bài 3: Tính diện tích hình vuông khi biết cạnh a</p>
+<input type="text" id="edge">
+<button onclick="areaSquare()">submit</button>
+<p id="areaS"></p>
+
+
+<p>Bài 4: Tính diện tích hình chữ nhật khi biết 02 cạnh a, b.</p>
+<input type="text" id="edgeA" placeholder="Enter the width here"></input> <br>
+<input type="text" id="edgeB" placeholder="Enter the height here">
+<button onclick="ractangularArea()">submit</button>
+<p id="areaR"></p>
+
+<p>Bài 5: Tính diện tích tam giác vuông khi biết 02 cạnh kề a, b.</p>
+<input type="text" id="a" placeholder="Enter the first edge here">
+<input type="text" id="b" placeholder="Enter the second edge here">
+<button onclick="triangleArea()">submit</button>
+<p id="traiangle"></p>
+
+<p>Bài 6: Giải phương trình bậc 1. ax+b=0</p>
+<input type="text" id="soA" placeholder="Enter the number a here">
+<input type="text" id="soB" placeholder="Enter the number b here">
+<button onclick="giaiPhuongTrinhBacNhat()">submit</button>
+<p id="output"></p>
+
+
+<p>Bài 7: Giải phương trình bậc 2. ax2 + bx + c = 0</p>
+<input type="text" id="number1" placeholder="Enter the number a">
+<input type="text" id="number2" placeholder="Enter the number b">
+<input type="text" id="number3" placeholder="Enter the number c">
+<button onclick="giaiPhuongTrinhBacHai()">Excercise 7</button>
+<p id="PTB2"></p>
+
+<p>Bài 8: Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là tuổi của một người khi nhỏ
+    120 và lơn hơn 0.</p>
+<button onclick="checkAge()">Excercise 8</button>
+
+<p>Bài 9: Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một
+    tam giác là:
+    <br>
+    a,b,c > 0 <br>
+    a + b > c <br>
+    b + c > a <br>
+    a + c > b</p>
+<button onclick="checkSizeEdgeOfTriangle()">Check</button>
+
+<p>Bài 10: Viết chương trình tính giá điện.</p>
+<button onclick="calculateTheMoneyOfElectricity()">Submit</button>
+
+<p>Bài 11: Viết chương trình tính thuế thu nhập cá nhân.</p>
+<button onclick="countTaxMoney()">Excercise 11</button>
+
+<p>Bài 12: Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lại con) khi biết số tiền ban đầu, số tháng cho vay và lãi
+    xuất hàng tháng.</p>
+<button onclick="countInteres()">Excercise 12</button>
+<script src="convertCtoF.js"></script>
+<script src="depthConversion.js"></script>
+<script src="areaSquare.js"></script>
+<script src="ractangularArea.js"></script>
+<script src="triangleArea.js"></script>
+<script src="quadratic.js"></script>
+<script src="firstOrderEquation.js"></script>
+<script src="checkAge.js"></script>
+<script src="checkSize.js"></script>
+<script src="electricBill.js"></script>
+<script src="checkInterest.js"></script>
+<script src="countTaxMoney.js"></script>
+
+</body>
+</html>
