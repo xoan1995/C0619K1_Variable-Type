@@ -7,91 +7,116 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="puzzles" id="puzzles" style="background: aqua; width: 800px">
-        <img id="img1" src="images/cat1.jpg" onclick="clickAnh1()" alt=""/>
-        <img id="img2" src="images/cat2.jpg" onclick="clickAnh2()" alt=""/>
-        <img id="img3" src="images/cat3.jpg" onclick="clickAnh3()" alt=""/>
-        <img id="img4" src="images/cat4.jpg" onclick="clickAnh4()" alt=""/>
-        <img id="img5" src="images/cat5.jpg" onclick="clickAnh5()" alt=""/>
+    <div class="puzzles" id="puzzles" style="background: aqua; width: 900px">
+        <img id="img1" src="images/cat1.jpg" alt="cat1" onclick="clickAnh(1)" />
+        <img id="img2" src="images/cat2.jpg" alt="cat2" onclick="clickAnh(2)" />
+        <img id="img3" src="images/cat3.jpg" alt="cat3" onclick="clickAnh(3)" />
+        <img id="img4" src="images/cat4.jpg" alt="cat4" onclick="clickAnh(4)" />
+        <img id="img5" src="images/cat5.jpg" alt="cat5" onclick="clickAnh(5)" />
     </div>
 </div>
+<button onclick="checkWin()">check</button>
 <script>
-        let name1 = 'cat1';
-        let name2 = 'cat2';
-        let name3 = 'cat3';
-        let name4 = 'cat4';
-        let name5 = 'cat5';
-        function clickAnh1() {
-            switch (name1) {
-                case 'cat1':
-                    name1 = 'monkey1';
-                    break;
-                case 'monkey1':
-                    name1 = 'panda1';
-                    break;
-                case 'panda1':
-                    name1 = 'cat1';
-                    break;
-            }
-            document.getElementById("img1").src = "images/" + name1 + ".jpg";
+    //     let name1 = 'cat1';
+    //     let name2 = 'cat2';
+    //     let name3 = 'cat3';
+    //     let name4 = 'cat4';
+    //     let name5 = 'cat5';
+    //     function clickAnh1() {
+    //         switch (name1) {
+    //             case 'cat1':
+    //                 name1 = 'monkey1';
+    //                 break;
+    //             case 'monkey1':
+    //                 name1 = 'panda1';
+    //                 break;
+    //             case 'panda1':
+    //                 name1 = 'cat1';
+    //                 break;
+    //         }
+    //         document.getElementById("img1").src = "images/" + name1 + ".jpg";
+    //     }
+    // function clickAnh2() {
+    //     switch (name2) {
+    //         case 'cat2':
+    //             name2 = 'monkey2';
+    //             break;
+    //         case 'monkey2':
+    //             name2 = 'panda2';
+    //             break;
+    //         case 'panda2':
+    //             name2 = 'cat2';
+    //             break;
+    //     }
+    //     document.getElementById("img2").src = "images/" + name2 + ".jpg";
+    // }
+    //
+    // function clickAnh3() {
+    //         switch (name3) {
+    //             case 'cat3':
+    //                 name3 = 'monkey3';
+    //                 break;
+    //             case 'monkey3':
+    //                 name3 = 'panda3';
+    //                 break;
+    //             case 'panda3':
+    //                 name3 = 'cat3';
+    //                 break;
+    //         }
+    //         document.getElementById('img3').src = 'images/'+name3+'.jpg';
+    // }
+    //     function clickAnh4() {
+    //         switch (name4){
+    //             case 'cat4':
+    //                 name4 = 'monkey4';
+    //                 break;
+    //             case 'monkey4':
+    //                 name4 = 'panda4';
+    //                 break;
+    //             case 'panda4':
+    //                 name4 = 'cat4';
+    //                 break;
+    //         }
+    //         document.getElementById('img4').src = 'images/'+name4+'.jpg';
+    //     }
+    //     function clickAnh5() {
+    //         switch (name5){
+    //             case 'cat5':
+    //                 name5 = 'monkey5';
+    //                 break;
+    //             case 'monkey5':
+    //                 name5 = 'panda5';
+    //                 break;
+    //             case 'panda5':
+    //                 name5 = 'cat5';
+    //                 break;
+    //         }
+    //         document.getElementById('img5').src = 'images/'+name5+'.jpg';
+    //     }
+
+    function clickAnh(index) {
+        console.log(document.getElementById("img" + index).src);
+        let nameCat = "cat" + index;
+        let nameMonkey = "monkey" + index;
+        let namePanda = "panda" + index;
+
+        let img = document.getElementById("img" + index);
+        switch (img.alt) {
+            case nameCat:
+                img.alt = nameMonkey;
+                break;
+            case nameMonkey:
+                img.alt = namePanda;
+                break;
+            case namePanda:
+                img.alt = nameCat;
+                break;
         }
-    function clickAnh2() {
-        switch (name2) {
-            case 'cat2':
-                name2 = 'monkey2';
-                break;
-            case 'monkey2':
-                name2 = 'panda2';
-                break;
-            case 'panda2':
-                name2 = 'cat2';
-                break;
-        }
-        document.getElementById("img2").src = "images/" + name2 + ".jpg";
+
+        document.getElementById("img" + index).src = "images/" + img.alt + ".jpg";
+
     }
 
-    function clickAnh3() {
-            switch (name3) {
-                case 'cat3':
-                    name3 = 'monkey3';
-                    break;
-                case 'monkey3':
-                    name3 = 'panda3';
-                    break;
-                case 'panda3':
-                    name3 = 'cat3';
-                    break;
-            }
-            document.getElementById('img3').src = 'images/'+name3+'.jpg';
-    }
-        function clickAnh4() {
-            switch (name4){
-                case 'cat4':
-                    name4 = 'monkey4';
-                    break;
-                case 'monkey4':
-                    name4 = 'panda4';
-                    break;
-                case 'panda4':
-                    name4 = 'cat4';
-                    break;
-            }
-            document.getElementById('img4').src = 'images/'+name4+'.jpg';
-        }
-        function clickAnh5() {
-            switch (name5){
-                case 'cat5':
-                    name5 = 'monkey5';
-                    break;
-                case 'monkey5':
-                    name5 = 'panda5';
-                    break;
-                case 'panda5':
-                    name5 = 'cat5';
-                    break;
-            }
-            document.getElementById('img5').src = 'images/'+name5+'.jpg';
-        }
 
 </script>
 </body>
