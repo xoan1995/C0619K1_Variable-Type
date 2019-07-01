@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="doReady()">
+<img id="earth" src="theEarth.jpg" style="position:absolute; left: 0; top: 0;"/>
+<script>
+    //Xay dung cac ham xu ly khi nhan phim len
+    function upArrowPressed() {
+        let element = document.getElementById("earth");
+        element.style.top = parseInt(element.style.top) - 5 + "px";
+    }
+
+    //Buoc 3: Xay dung ban phim xu ly khi nhan phim xuong
+    function dowArrowPressed() {
+        let element = document.getElementById("earth");
+        element.style.top = parseInt(element.style.top) + 5 + "px";
+    }
+
+    //Buoc 4: Xay dung cac ham xu ly khi nhan phim sang trai
+    function leftArrowPressed() {
+        let element = document.getElementById("earth");
+        element.style.left = parseInt(element.style.left) - 5 + "px";
+    }
+
+    //Buoc 5: Xay dung cac ham xu ly khi nhan phim sang phai
+    function rightArrowPressed() {
+        let element = document.getElementById("earth");
+        element.style.left = parseInt(element.style.left) + 5 + "px";
+    }
+
+    //Buoc 6:Xay dung cac ham nhan ban phim
+    function moveSelection(evt) {
+        switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                dowArrowPressed();
+                break;
+
+        }
+    }
+
+    //Buoc 7: Xay dung ham doReady()
+    function doReady() {
+        window.addEventListener('keydown', moveSelection);
+    }
+
+    //Buoc 8: GOi ham doReady()
+</script>
+</body>
+</html>
