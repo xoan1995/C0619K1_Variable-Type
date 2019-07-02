@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display the first 20 primes</title>
+</head>
+<body>
+<input id="numberInput" type="number" placeholder="Enter the number here">
+<button onclick="numbersPrime()">check</button>
+<p id="kq"></p>
+<script>
+    function checkPrime(n) {
+        //check số nguyên n không phải số nguyên tố
+        if (n < 2) {
+            return false;
+        }
+        //check số nguyên tố >=2;
+        let i;
+        for (i = 2; i < n; i++) {
+            if (n % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    function numbersPrime() {
+        let numberInput = parseInt(document.getElementById("numberInput").value);
+        let count = 0;
+        let i = 2;
+        while (count < numberInput) {
+            if (checkPrime(i)) {
+                document.write(i + " ");
+                count ++;
+                console.log(count);
+            }
+            i++;
+        }
+
+    }
+
+</script>
+</body>
+</html>
