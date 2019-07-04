@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Bài 1: In dãy Finonaci</p>
+<button onclick="disPlayFibonaci()">Check Ex1</button>
+<p>Bài 2: Tính giai thừa của một số nguyên dương</p>
+<input type="number" id="output">
+<button onclick="countFactorial()">Check Ex2</button>
+<p id="kq"></p>
+
+<p>Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau</p>
+<button>Check Ex3</button>
+
+<script>
+    function disPlayFibonaci() {
+        let number_a = 0;
+        let number_b = 1;
+        let saveNumber_a = 0;
+        for (let i = 0; i < 10; i++) {
+            saveNumber_a = number_a;
+            number_a = number_a + number_b;
+            number_b = saveNumber_a;
+            document.write(number_b + "<br>");
+        }
+    }
+
+    
+    function countFactorial() {
+        let number = parseInt(document.getElementById("output").value);
+        let factorial=1;
+
+        for (let i = 1; i <= number; i++){
+            factorial*=i;
+            // document.write(factorial);
+        }
+        document.getElementById("kq").innerHTML= factorial;
+            }
+</script>
+</body>
+</html>

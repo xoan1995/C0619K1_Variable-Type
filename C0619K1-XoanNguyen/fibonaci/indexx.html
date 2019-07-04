@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="showFibonaci()">Click</button>
+<script>
+    function showFibonaci() {
+        let number_a = 0;
+        let number_b = 1;
+        let saveNumber_a;
+        let i = 0;
+        for (; i < 20; i++) {
+            saveNumber_a = number_a;
+            number_a = number_a + number_b;
+            number_b = saveNumber_a;
+           console.log(number_b);
+        }
+    }
+</script>
+</body>
+</html>

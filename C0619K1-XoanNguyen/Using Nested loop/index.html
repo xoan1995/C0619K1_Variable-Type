@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="showTableUseForLoop()">check nested for loop</button>
+<button onclick="showTableUseWhileLoop()">check while loop</button>
+<script>
+
+    function showTableUseForLoop() {
+        let sout;
+        sout = "<table border='1' width='300' cellspacing='' cellpadding='3'>";
+        //vòng lặp for ngoài  để in ra số dòng
+        let i=1;
+        for (; i <= 10; i++) {
+//vòng lặp for ở trong n ra số cột
+            sout = sout + "<tr>";
+            for (let j = 1; j <= 10; j++) {
+                //mỗi cột có giá trị bằng i*j;
+                sout = sout + "<td>" + i * j + "</td>";
+            }
+            sout = sout + "</tr>";
+        }
+        sout = sout + "</table>";
+        document.write(sout);
+    }
+
+    function showTableUseWhileLoop() {
+        let sout;
+        let i;
+        let j;
+        sout = "<table border='1' width='300' cellpadding='1' cellspacing='3'>";
+        i=j=1;
+        while (i <= 10) {
+            sout = sout + "<tr>";
+            while (j <= 10) {
+                sout = sout + "<td>" + i * j + "</td>";
+                j++;
+            }
+            sout = sout + "</tr>";
+             j = 1;
+            i++;
+        }
+        sout = sout + "</table>";
+        document.write(sout);
+    }
+</script>
+</body>
+</html>

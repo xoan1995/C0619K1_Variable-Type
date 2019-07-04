@@ -25,13 +25,13 @@
     }
 
     function numbersPrime() {
-        let numberInput = parseInt(document.getElementById("numberInput").value);
+        let soNguyentoMongmuon  = parseInt(document.getElementById("numberInput").value);
         let count = 0;
         let i = 2;
         while (count < numberInput) {
             if (checkPrime(i)) {
                 document.write(i + " ");
-                count ++;
+               count ++;
                 console.log(count);
             }
             i++;

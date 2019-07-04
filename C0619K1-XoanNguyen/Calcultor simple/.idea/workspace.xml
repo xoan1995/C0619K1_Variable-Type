@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d58e9847-fdef-4472-a7dc-0add8985be34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/calculatorSimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Games_Puzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Games_Puzz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/TH-su kien ban phim.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TH-su kien ban phim/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TH-su kien ban phim/theEarth.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paratuice th 02 loop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Using Nested loop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fibonaci/indexx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Calculating body weight index/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculating body weight index/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculatorSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorSimple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Display the first 20 primes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Display the first 20 primes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Display the first 20 primes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Display the first 20 primes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Funny application Do_you_love_me/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Funny application Do_you_love_me/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Funny application Do_you_love_me/funnyApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Funny application Do_you_love_me/funnyApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multiplication table/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multiplication table/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Multiplication table/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tic tac toe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic tac toe/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using for for loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using for for loop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using for while and for loop/dowhilexample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using for while loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using for while loop/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,23 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculatorSimple.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Practice th 02 loop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -63,16 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/css.css" />
         <option value="$PROJECT_DIR$/calculatorSimple.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Calcultor simple.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/../Practice th 02 loop/index.html" />
       </list>
     </option>
   </component>
@@ -88,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,13 +95,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculating body weight index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Practice th 02 loop/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -134,14 +137,16 @@
       <updated>1561966740987</updated>
       <workItem from="1561966742181" duration="2462000" />
       <workItem from="1562034201184" duration="305000" />
+      <workItem from="1562234065476" duration="2142000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2767000" />
+    <option name="totallyTimeSpent" value="4909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23841554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -168,11 +173,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/calculatorSimple.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -180,6 +182,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Practice th 02 loop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
