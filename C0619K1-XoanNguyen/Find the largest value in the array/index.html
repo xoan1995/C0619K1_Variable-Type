@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find the largest value in the array</title>
+</head>
+<body>
+<script>
+    function showMaxValue() {
+        let arr_x = [1, 5, 77, 6, 1, 4];
+        let max = arr_x[0];
+
+        for (let i=0; i < arr_x.length - 1; i++) {
+            if (max < arr_x[i]) {
+                max = arr_x[i];
+            }
+
+        }
+        document.write("So lon nhat trong mang la " + max );
+    }
+
+    showMaxValue();
+
+</script>
+</body>
+</html>

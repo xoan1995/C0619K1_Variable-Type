@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca388156-1cfa-4881-9e56-d1d6ee1a8072" name="Default Changelist" comment="">
+    <list default="true" id="a586828c-bd98-42d4-a94b-fe37d72859ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Create a simple checkerboard/carosimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Find the value in the array/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice manipulating arrays/.idea/Practice manipulating arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice manipulating arrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice manipulating arrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice manipulating arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice manipulating arrays/arrayElement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reverse the elements in the array/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Calcultor simple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calcultor simple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Paratuice th 02 loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Paratuice th 02 loop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice th 02 loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice th 02 loop/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Practice th 02 loop/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="391">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -39,13 +50,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Practice th 02 loop/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Find the largest value in the array.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/../Use the available functions of the array/.idea/Use the available functions of the array.iml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="29" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1316" />
     <option name="height" value="407" />
   </component>
@@ -55,25 +77,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Paratuice th 02 loop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Practice th 02 loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Find the largest value in the array" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Find the largest value in the array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Display the first 20 primes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Use the available functions of the array" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,23 +121,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca388156-1cfa-4881-9e56-d1d6ee1a8072" name="Default Changelist" comment="" />
-      <created>1562226646138</created>
+      <changelist id="a586828c-bd98-42d4-a94b-fe37d72859ea" name="Default Changelist" comment="" />
+      <created>1562309239390</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562226646138</updated>
-      <workItem from="1562226647825" duration="2937000" />
+      <updated>1562309239390</updated>
+      <workItem from="1562309241362" duration="2538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2937000" />
+    <option name="totallyTimeSpent" value="2538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23841554" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -138,10 +160,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Practice th 02 loop/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>

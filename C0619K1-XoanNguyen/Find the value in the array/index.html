@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Find the value in the array</title>
+</head>
+<body>
+<script>
+    let value=prompt("Enter a number ");//nhap hia tri tu hop thoai va luu vao bien value
+    let arr_x=[-3,5,1,3,2,10];//khai bao mang x va khoi tao gia tri ban dau cho mang
+    //dung vong lap de duyet toan bo mang x. kiem tra neu mot phan tu trong mang x bang gia tri duoc nhap vao thi hien thi thong bao
+    for(let i= 0; i<arr_x.length; i++){
+        if(value ==arr_x[i]){
+            alert("value "+arr_x[i]+ " found at"+[i]);
+        }
+    }
+
+</script>
+</body>
+</html>

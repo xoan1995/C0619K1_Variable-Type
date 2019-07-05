@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverse the elements in the array</title>
+</head>
+<body>
+<script>
+    let arr_x = [-3, 5, 1, 3, 2, 10];//khai bao mang x vab khoi tao cac phan tu trong mang
+    let first = 0;//khai nao bien first va gan gia tri bang 0. bien nsy de duyet tu phsn tu dau tien trong mang
+    let last = arr_x.length - 1;//khai bao bien last va gan gia tri bang do dai cua mang tru 1. Bien nay de duyet phn tu cuoi cung cua mang
+    while (first<last){
+        let number_b= arr_x[first];
+        arr_x[first]=arr_x[last];
+        arr_x[last]=number_b;
+        first ++;
+        last --;
+    } //dung vong lap chay voi dieu kien first < last, trong qua trinh lap doi cho phan tu dau tien va phan tu cuoi cung cho nhau.
+    // Sau do tang bien first len 1 de duyet phan tu tiep theo, giam last di 1;
+    document.write(arr_x);//in ra mang sau khi dao nguoc
+
+</script>
+</body>
+</html>

@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d58e9847-fdef-4472-a7dc-0add8985be34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Paratuice th 02 loop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Using Nested loop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fibonaci/indexx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculating body weight index/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculating body weight index/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculatorSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/calculatorSimple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Display the first 20 primes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Display the first 20 primes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Display the first 20 primes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Display the first 20 primes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Funny application Do_you_love_me/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Funny application Do_you_love_me/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Funny application Do_you_love_me/funnyApplication.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Funny application Do_you_love_me/funnyApplication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multiplication table/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multiplication table/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Multiplication table/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Multiplication table/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tic tac toe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tic tac toe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using for for loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using for for loop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using for while and for loop/dowhilexample.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using for while loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using for while loop/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d58e9847-fdef-4472-a7dc-0add8985be34" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -137,12 +118,12 @@
       <updated>1561966740987</updated>
       <workItem from="1561966742181" duration="2462000" />
       <workItem from="1562034201184" duration="305000" />
-      <workItem from="1562234065476" duration="2142000" />
+      <workItem from="1562234065476" duration="2250000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4909000" />
+    <option name="totallyTimeSpent" value="5017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
