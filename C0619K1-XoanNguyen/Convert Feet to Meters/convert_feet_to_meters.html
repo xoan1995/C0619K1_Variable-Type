@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convert feed to meters</title>
+    <script src="js.js"></script>
+</head>
+<body>
+<p>
+<label>Feet to Meter</label>
+    <input type="number" placeholder="input Feet" id="inputfeet"
+    oninput="convertFeetToMeters(this.value)"
+    onchange="convertFeetToMeters(this.value)"/>
+    <p>Meters <span id="outputMeters"></span></p>
+</p>
+</body>
+</html>

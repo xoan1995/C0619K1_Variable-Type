@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMin(arr) {
+        let minNumber=arr[0];
+        for(let i=1; i<arr.length-1; i++){
+            if(arr[i]<minNumber){
+                minNumber=arr[i];
+            }
+        }
+        return minNumber;
+    }
+    let arr=[3, 5, 1, 8, -3, 7, 8];
+    let min=findMin(arr);
+    alert(" the smallest value of the array = " + min);
+</script>
+</body>
+</html>
