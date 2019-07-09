@@ -3,80 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <title>Tic tac toe</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        .container {
+            width: 300px;
+            overflow: hidden;
+            margin: 50px auto 0 auto;
+        }
+
+        .container .box {
+            float: left;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            transition: all .25s ease-in-out;
+            font-family: sans-serif;
+            font-size: 85px;
+            text-align: center;
+            line-height: 100px;
+            cursor: pointer;
+        }
+
+        .container .box:hover {
+            background: bisque;
+            color: #000000
+        }
+
+        button {
+            background: #26c281;
+            color: #fff;
+            font-weight: bold;
+            border: 1px solid yellowgreen;
+            cursor: pointer;
+            width: 200px;
+            height: 40px;
+            font-size: 22px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
 </head>
 <body>
+<!--<input type="button" value="" onclick="ham(this, 0, 0)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 0, 1)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 0, 2)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 0, 3)"/> <br>-->
 
+<!--<input type="button" value="" onclick="ham(this, 1, 0)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 1, 1)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 1, 2)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 1, 3)"/> <br>-->
+
+<!--<input type="button" value="" onclick="ham(this, 2, 0)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 2, 1)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 2, 2)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 2, 3)"/> <br>-->
+
+<!--<input type="button" value="" onclick="ham(this, 3, 0)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 3, 1)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 3, 2)"/>-->
+<!--<input type="button" value="" onclick="ham(this, 3, 3)"/>-->
+<!--<script src="js.js"></script>-->
+<div class="container" id="main">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+    <div class="box" id="box5">5</div>
+    <div class="box" id="box6">6</div>
+    <div class="box" id="box7">7</div>
+    <div class="box" id="box8">8</div>
+    <div class="box" id="box9">9</div>
+</div>
+<button>Play Again</button>
 <script>
-    function checkColumn(board) {
-        for (let j = 0; j < board.length; j++) {
-            if (board[0][j] === board[1][j] && board[1][j] === board[2][j] && board[1][j] !== '') {
-                document.getElementById('turn').innerHTML = 'Congrats Winner is' + board[1][j];
-            }
+    function checkBox() {
+        let box1 = document.getElementById('box1'),
+            box2 = document.getElementById('box2'),
+            box3 = document.getElementById('box3'),
+            box4 = document.getElementById('box4'),
+            box5 = document.getElementById('box5'),
+            box6 = document.getElementById('box6'),
+            box7 = document.getElementById('box7'),
+            box8 = document.getElementById('box8'),
+            box9 = document.getElementById('box9');
+        if (box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1.innerHTML === box3.innerHTML) {
+            console.log("win!");
         }
+        else if ((box4.innerHTML !== "" && box4.innerHTML === box5.innerHTML && box4.innerHTML === box6.innerHTML){
+            console.log("win!");
+        }
+        if ((box7.innerHTML !== "" && box7.innerHTML === box8.innerHTML && box7.innerHTML === box9.innerHTML){
+            console.log("win!");
+        }
+
+        if ((box1.innerHTML !== "" && box1.innerHTML === box4.innerHTML && box1.innerHTML === box7.innerHTML)
+            console.log("win!");
+
+        if ((box2.innerHTML !== "" && box2.innerHTML === box5.innerHTML && box2.innerHTML === box8.innerHTML)
+            console.log("win!");
+
+        if ((box3.innerHTML !== "" && box3.innerHTML === box6.innerHTML && box3.innerHTML === box9.innerHTML)
+            console.log("win!");
     }
 
-    function checkRow(board) {
-        for (let i = 0; i < board.length; i++) {
-            if (board[i][0] === board[i][1] && board[i][1] === board[i][2] && board[i][1] !== '') {
-                document.getElementById('turn').innerHTML = 'Congrats Winner is' + board[i][1];
-            }
-        }
-    }
+    if ((box1.innerHTML !== "" && box1.innerHTML === box5.innerHTML && box1.innerHTML === box9.innerHTML)
+        console.log("win!");
 
-    function checkFirstDiagonal(board) {
-        if (board[0][0] === board[1][1] && board[1][1] === board[2][2] && board[1][1] !== '') {
-            document.getElementById('turn').innerHTML = 'Congrats Winner is' + board[1][1];
-        }
-    }
-    function checkSecondDiagonal(board) {
-        if (board[2][0] === board[1][1] && board[1][1] === board[0][2] && board[1][1] !== '') {
-            document.getElementById('turn').innerHTML = 'Congrats Winner is' + board[1][1];
-        }
-    }
-    function getWinner() {
-        let box1 = document.getElementById('box1').innerHTML;
-        let box2 = document.getElementById('box2').innerHTML;
-        let box3 = document.getElementById('box3').innerHTML;
-        let box4 = document.getElementById('box4').innerHTML;
-        let box5 = document.getElementById('box5').innerHTML;
-        let box6 = document.getElementById('box6').innerHTML;
-        let box7 = document.getElementById('box7').innerHTML;
-        let box8 = document.getElementById('box8').innerHTML;
-        let box9 = document.getElementById('box9').innerHTML;
-        let board = [[box1,box2,box3],[box4,box5,box6],[box7,box8,box9]];
-        checkRow(board);
-        checkColumn(board);
-        checkFirstDiagonal(board);
-        checkSecondDiagonal(board);
-    }
-    let player = 'X';
-    function play(e) {
-        if (e.innerHTML==='') {
-            switch (player) {
-                case 'X':
-                    player = 'O';
-                    nextPlayer = 'X';
-                    break;
-                case 'O':
-                    player = 'X';
-                    nextPlayer = 'O';
-                    break;
-            }
-            e.innerHTML = player;
-            document.getElementById('turn').innerHTML = nextPlayer + " Turn Now";
-        }
-    }
-    function resetBoard() {
-        document.getElementById('box1').innerHTML = '';
-        document.getElementById('box2').innerHTML = '';
-        document.getElementById('box3').innerHTML = '';
-        document.getElementById('box4').innerHTML = '';
-        document.getElementById('box5').innerHTML = '';
-        document.getElementById('box6').innerHTML = '';
-        document.getElementById('box7').innerHTML = '';
-        document.getElementById('box8').innerHTML = '';
-        document.getElementById('box9').innerHTML = '';
+    if ((box3.innerHTML !== "" && box2.innerHTML === box5.innerHTML && box2.innerHTML === box7.innerHTML)
+        console.log("win!");
+
+
     }
 </script>
 </body>
-</html>
