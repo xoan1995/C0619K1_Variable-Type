@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="square.js "></script>
+    <script src="circle.js"></script>
+    <script src="factorial.js"></script>
+    <script src="check_number.js"></script>
+</head>
+<body>
+<div>
+    <label>Squared</label>
+    <input type="number" placeholder="input a number " id="inputNumber"
+           oninput="square(this.value)"
+           onchange="square(this.value)"/>
+<p>Square of number <span id="outputSquare"></span></p>
+    <hr>
+
+
+    <label>Area and circumference Circle</label>
+    <input type="number" placeholder="input radius " id="inputRadius"
+           oninput="areaCircle(this.value)"
+           onchange="areaCircle(this.value)"/>
+<p>Area <span id="outputArea"></span></p>
+<p>Circumference <span id="outputCircumference"></span></p>
+    <hr>
+
+    <label>Count Factorial</label>
+    <input type="number" placeholder="Enter the number " id="inputNu"
+           oninput="countFactorial(this.value)"
+           onchange="countFactorial(this.value)"/>
+<p>Factorial <span id="output"></span></p>
+    <hr>
+    <label>kiem tra so nhap vao co phai so khong</label> <br>
+    <input type="text" id="number" placeholder="Check the number"
+    oninput="checkNumber(this.value)"/>
+    <p id="result"></p>
+</div>
+</body>
+</html>
