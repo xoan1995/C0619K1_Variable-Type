@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36c755d4-0d83-419a-a43b-6f2d53e4b57a" name="Default Changelist" comment="">
+    <list default="true" id="4c594027-9e78-4773-8dff-ea15a4da18c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/check_the_symmetry_of_a_string.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/.idea/Kiem tra giua ky.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/.idea/modules.xml" afterDir="false" />
@@ -11,8 +13,8 @@
       <change afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/ex3.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/ex4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice creating and using function 02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice creating and using function 02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check_prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/check_prime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check prime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check prime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check prime/check_prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/../check prime/check_prime.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,10 +28,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/check_prime.html">
+        <entry file="file://$PROJECT_DIR$/check_the_symmetry_of_a_string.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -40,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,15 +61,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/check_prime.html" />
+        <option value="$PROJECT_DIR$/check_the_symmetry_of_a_string.html" />
+        <option value="$PROJECT_DIR$/js.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/check the symmetry of a string.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1316" />
-    <option name="height" value="288" />
+    <option name="width" value="1376" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -65,23 +88,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="check prime" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check prime" type="462c0819:PsiDirectoryNode" />
+              <item name="check the symmetry of a string" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check the symmetry of a string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -104,24 +126,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36c755d4-0d83-419a-a43b-6f2d53e4b57a" name="Default Changelist" comment="" />
-      <created>1562638535652</created>
+      <changelist id="4c594027-9e78-4773-8dff-ea15a4da18c2" name="Default Changelist" comment="" />
+      <created>1562732148729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562638535652</updated>
-      <workItem from="1562638536734" duration="1120000" />
-      <workItem from="1562722731670" duration="2186000" />
+      <updated>1562732148729</updated>
+      <workItem from="1562732151514" duration="2269000" />
+      <workItem from="1562744897284" duration="1378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3306000" />
+    <option name="totallyTimeSpent" value="3647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.022421524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -144,10 +166,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/check_prime.html">
+    <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_the_symmetry_of_a_string.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
