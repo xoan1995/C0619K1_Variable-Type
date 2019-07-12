@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c594027-9e78-4773-8dff-ea15a4da18c2" name="Default Changelist" comment="">
+    <list default="true" id="ec4f576a-1c15-4db2-b277-df1f595edac7" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Build Circle class/.idea/Build Circle class.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Build Circle class/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Build Circle class/.idea/modules.xml" afterDir="false" />
@@ -10,13 +10,13 @@
       <change afterPath="$PROJECT_DIR$/../Build Circle class/js.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Build Date class/build_Date_Class.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Build Date class/js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Build squares/build_Squares.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_Squares.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Funny circles/funny_Circle.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Funny circles/js.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Funny circles/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Product management application/js.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Product management application/product_Management_Application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../check the symmetry of a string/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../check the symmetry of a string/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kiem tra giua ky/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kiem tra giua ky/Ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/Ex1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Kiem tra giua ky/ex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kiem tra giua ky/ex2.html" afterDir="false" />
@@ -32,27 +32,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_the_symmetry_of_a_string.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js.js">
+        <entry file="file://$PROJECT_DIR$/build_Squares.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="272">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -63,7 +49,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,17 +58,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/check_the_symmetry_of_a_string.html" />
-        <option value="$PROJECT_DIR$/js.js" />
+        <option value="$PROJECT_DIR$/build_Squares.html" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/check the symmetry of a string.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/Build squares.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
@@ -105,8 +89,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="check the symmetry of a string" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check the symmetry of a string" type="462c0819:PsiDirectoryNode" />
+              <item name="Build Rectangle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Build squares" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -116,15 +100,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Module 1/SS9/Bai tap/ung dung quan ly san pham" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -145,27 +122,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c594027-9e78-4773-8dff-ea15a4da18c2" name="Default Changelist" comment="" />
-      <created>1562732148729</created>
+      <changelist id="ec4f576a-1c15-4db2-b277-df1f595edac7" name="Default Changelist" comment="" />
+      <created>1562898483196</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562732148729</updated>
-      <workItem from="1562732151514" duration="2269000" />
-      <workItem from="1562744897284" duration="1950000" />
-      <workItem from="1562913986986" duration="396000" />
+      <updated>1562898483196</updated>
+      <workItem from="1562898485576" duration="3562000" />
+      <workItem from="1562903412007" duration="5508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4615000" />
+    <option name="totallyTimeSpent" value="9070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.022796353" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35276532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -177,7 +153,6 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -187,17 +162,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/check_the_symmetry_of_a_string.html">
+    <entry file="file://$PROJECT_DIR$/build_Squares.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="272">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>

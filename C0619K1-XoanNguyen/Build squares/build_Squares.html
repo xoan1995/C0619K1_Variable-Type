@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>building Rectangle</title>
+</head>
+<body>
+<canvas id="myCanvas" height="600" width="1200"></canvas>
+<script>
+    Rectangle = function (width, height) {
+        this.width = width;
+        this.height = height;
+        // this.area = width * height;
+        this.area=function () {
+            return this.width * this.height;
+        };
+        this.perimeter=function () {
+           return (this.width + this.height) * 2;
+        };
+        this.setInfor=function (width,height) {
+            this.width=width;
+            this.height=height;
+        }
+
+    };
+    let rectangle = new Rectangle(20, 10);
+    let s = rectangle.area();
+    let c = rectangle.perimeter();
+    rectangle.setInfor(400, 200);
+
+    ctx = document.getElementById("myCanvas").getContext("2d");
+    ctx.fillRect(400, 200, rectangle.width, rectangle.height);
+    ctx.font = "30px Arial";
+    ctx.strokeText("Area = " + s + "  " + "Perimeter = " + c, 410, 440);
+</script>
+</body>
+</html>
