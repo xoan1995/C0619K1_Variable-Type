@@ -56,7 +56,7 @@ let box = [];
 function createCircle() {
 
     let radius = Math.floor(Math.random() * 80);//ban kinh ngau nhien
-    let speed=Math.floor(Math.random()*9+3);
+    let speed=Math.floor(Math.random()*5+3);
     let color = getRandomColor();
 
     let x = Math.floor(Math.random() *( canvas.width-radius-radius+1)+radius);//toa do x ngau nhien

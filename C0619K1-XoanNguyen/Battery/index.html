@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Baterry</title>
+</head>
+<body>
+<img id="lightOff" src = "light_bulb.jpg" style="display: none">
+<img id="lightOn" src="light_bulbOff.jpg" style="display: none">
+
+<canvas id="light" width="500" height="500" style="border: 1px solid #000000"></canvas>
+<br>
+<button id="switchBtn" onclick="onOff()">Bật</button>
+<script>
+    //Buoc mot: khai bao lop Battery. Boi vi lop FlashLamp co su dung lop Battery, hay noi cach khac lop FlashLamp
+    //phu thuoc vao lop Battery. do do chung ta se khai bao lop battery trc
+    let canvas = document.getElementById('light');
+    let ctx = canvas.getContext('2d');
+
+    let Battery = function (status, width, height) {
+        this.status = status;
+        this.width = width;
+        this.height = height;
+
+        this.turnOn = function () {
+            this.status = 'On';
+        };
+
+        this.turnOff = function () {
+            this.status = 'Off';
+        };
+
+        this.draw = function () {
+            let img = document.getElementById('light' + this.status);
+            ctx.drawImage(img, canvas.width / 2 - this.width / 2, canvas.height / 2 - this.height / 2, this.width, this.height);
+        };
+    };
+//buoc 2: khai bao lop FlashLamp
+    let FlashLamp = function (status) {
+        this.status = status;
+
+        this.turnOnOff =function (lamp) {
+            let switchBtn = document.getElementById('switchBtn');
+            if (this.status === 'on') {
+                lamp.turnOn();
+                switchBtn.innerHTML = 'Tắt';
+                this.status = 'off';
+            } else {
+                lamp.turnOff();
+                switchBtn.innerHTML = 'Bật';
+                this.status = 'on';
+            }
+        }
+
+    };
+
+    //buoc 3: thu nghiem
+    let battery =new Battery('Off', 70, 112);
+    let flashLampOff = new FlashLamp('on');
+
+    battery.draw();
+
+    function onOff() {
+        flashLampOff.turnOnOff(battery);
+        battery.draw();
+    }
+</script>
+</body>
+</html>

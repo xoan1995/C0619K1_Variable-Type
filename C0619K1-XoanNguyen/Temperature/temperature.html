@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Class</title>
+</head>
+<body>
+<script>
+    let Temperature = function (c) {
+        this.c = c;
+        this.setCelsius=function(c){
+            this.c= c;
+        };
+        this.getK = function () {
+            return (this.c * 1.8) + 32;
+        };
+        this.getF = function () {
+            return this.c + 273.15;
+        }
+    };
+    let number=parseInt(prompt("nhập độ C vào đây"));
+    let temperature = new Temperature(number);
+    temperature.setCelsius(number);
+    alert (temperature.getF()+ ' độ F');
+    alert(temperature.getK()+ ' độ K');
+</script>
+</body>
+</html>

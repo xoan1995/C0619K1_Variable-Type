@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm ước chung lớn nhất của hai số a, b </title>
+</head>
+<body>
+<script>
+    let numberOne = parseInt(prompt("Nhập số a vào đây"));
+    let numberTrue = parseInt(prompt("Nhập số b vào đây"));
+  UCLN=function (x,y) {
+      while(x!=y){
+          if(x>y){
+              x=x-y;
+          }else{
+              y=y-x;
+          }
+
+      }
+      return x;
+  };
+  document.write("Ước chung lớn nhất la"+ UCLN(numberOne,numberTrue));
+</script>
+</body>
+</html>
